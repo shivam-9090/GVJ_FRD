@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #110f0f;
+    color: #e5e5e5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header .search-container {
+    margin-top: 10px;
+}
+
+header input {
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+header button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+header button:hover {
+    background-color: #777;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.games-section {
+    margin-bottom: 20px;
+}
+
+.games-section h2 {
+    margin-bottom: 20px;
+}
+
+.games-section .game {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.games-section .game img {
+    max-width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #e50000;
+    border-radius: 50px;
+}
+
+.games-section .game h3 {
+    margin: 10px 0;
+}
+
+.games-section .game a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #111;
+    color: #f7f7f7;
+    text-decoration: none;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.games-section .game a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
